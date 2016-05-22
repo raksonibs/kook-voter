@@ -18,7 +18,7 @@ describe('immutability', () => {
 
   describe('A List', () => {
     function addMovie(currentState, movie) {
-      return currentState.push('movie')
+      return currentState.push('Birds')
     }
 
     it('is immutable', () => {
